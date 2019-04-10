@@ -1,6 +1,6 @@
-workflow "New workflow" {
-  on = "push"
+workflow "Test" {
   resolves = ["Hello World"]
+  on = "push"
 }
 
 action "Hello World" {
