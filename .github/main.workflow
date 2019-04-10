@@ -1,6 +1,6 @@
 workflow "Test" {
   resolves = ["Hello World"]
-  on = "check_run"
+  on = "push"
 }
 
 action "Hello World" {
